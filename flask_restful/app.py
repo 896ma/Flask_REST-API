@@ -7,7 +7,7 @@ app=Flask(__name__)
 
 api=Api(app)
 
-
+  
 class Message(Resource):
     def get(self):
         return  jsonify({"Greetings Developer !" :" You are now Enetering  a JAvaScript Platform"})
